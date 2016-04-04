@@ -2,7 +2,7 @@ require "primitive_root/version"
 require 'prime'
 require 'openssl'
 
-class PrimitiveRoot
+class PrimeComponent
 	# number g is a primitive root modulo n if every number 
 	# coprime to n is congruent to a power of g modulo n
 	def primitive_root(n)		
