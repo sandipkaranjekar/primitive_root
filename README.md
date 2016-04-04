@@ -20,6 +20,8 @@ Or install it yourself as:
 
 ## Usage
 ```ruby
+require 'primitive_root'
+
 obj = PrimeComponent.new
 # to get primitive root
 obj.primitive_root(761) # => 6
