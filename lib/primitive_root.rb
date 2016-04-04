@@ -6,7 +6,7 @@ class PrimitiveRoot
 	# number g is a primitive root modulo n if every number 
 	# coprime to n is congruent to a power of g modulo n
 	def primitive_root(n)		
-		totient = eular_totient(n)
+		totient = euler_totient(n)
 		factors = distinct_factors(totient).map{|f| totient/f }
 		for g in 1..totient do
 			is_break = false
@@ -24,9 +24,9 @@ class PrimitiveRoot
 		end
 	end
 
-	# Eular totient function denoted by phi(n)
-	# calculated using Eular product method
-	def eular_totient(n)
+	# Euler totient function denoted by phi(n)
+	# calculated using Euler product method
+	def euler_totient(n)
 		if Prime.prime?(n)
 			n - 1
 		else

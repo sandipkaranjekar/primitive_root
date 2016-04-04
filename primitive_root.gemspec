@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Sandip Karanjekar"]
   spec.email         = ["sandipkaranjekar@gmail.com"]
 
-  spec.summary       = %q{Primitive root and Eular's totient function}
-  spec.description   = %q{Get primitive root and Eular totient by passing integer}
+  spec.summary       = %q{Primitive root and Euler's totient function}
+  spec.description   = %q{Get primitive root and Euler totient by passing integer}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
