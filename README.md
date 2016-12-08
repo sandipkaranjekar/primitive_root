@@ -1,5 +1,7 @@
 # Primitive Root
 
+[![Gem Version](https://badge.fury.io/rb/primitive_root.svg)](https://badge.fury.io/rb/primitive_root)
+
 This gem will help you get **Primitive Root** and **Euler totient function**.These function will help us in areas like cryptography, number theory etc.
 
 ## Installation
