@@ -41,7 +41,7 @@ class PrimeComponent
 		n.prime_division.map(&:first)
 	end
 
-	# Modular exponentiation
+	# Modular exponentiation for fast exponent find
 	def modular_exponentiation(base, exponent, modulus)
 		base.to_bn.mod_exp(exponent, modulus).to_i
 	end
